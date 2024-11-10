@@ -1,13 +1,13 @@
 import React from 'react'
 import { IoMenu , IoClose} from "react-icons/io5";
 import {useState} from "react"
-import Image from 'next/image';
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen]= useState(false)
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
+    setIsMenuOpen(!isMenuOpen);
   }
   return (
     <div className='container pt-8'>
