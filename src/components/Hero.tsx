@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 const Hero = () => {
   return (
-    <div id='hero' className='min-h-screen bg-no-repeat bg-[url(/profile.jpeg)] bg-right lg:bg-[20%] bg-cover'
+    <div id='hero' className='min-h-screen bg-no-repeat bg-[url(/Profile-Pic.jpeg)] bg-right lg:bg-[20%] bg-cover'
     style={{backgroundSize: '20%', backgroundPosition: 'left 100px top 230px'}}>
       
       <Navbar />
@@ -13,8 +13,8 @@ const Hero = () => {
       <div className='text-[100px] sm:text-[100px] font-bold leading-tight flex justify-center items-center'>
         <div>
           <p data-aos="zoom-in-up">I'm</p>
-          <p data-aos="zoom-in-up">Khizra</p>
-          <p data-aos="zoom-in-up">Younus</p>
+          <p data-aos="zoom-in-up">Syed Abdul</p>
+          <p data-aos="zoom-in-up">Rafay</p>
         </div>
       </div>
     </div>
